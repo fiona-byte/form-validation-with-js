@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join us</title>
+    <link rel="stylesheet" href="./css/ionicons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+            <div class="logo-container">
+                <h2 class="logo">Femme</h2>
+            </div>
+            <ul class="nav-items">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Blog</a></li>
+                <li class="active"><a href="#">Join us</a></li>
+            </ul>
+        </nav>
+    
+        <div class="flex-container">
+            <div class="img-section">
+                <h2>let's talk about being female!</h2>
+            </div>
+    
+            <div class="form-container">
+                <div class="icons">
+                    <div><i class="ion-social-facebook social-icon"></i></div>
+                    <div><i class="ion-social-instagram-outline social-icon"></i></div>
+                    <div><i class="ion-social-twitter social-icon"></i></div>
+                    <h4>or join with your email</h4>
+                </div>
+                <form action="" id="form">
+                    <div class="form-control">
+                        <label for="fullname"><p>Full name(First name first)</p>
+                            <input type="text" name="fullname" id="fullname" placeholder="eg. John Doe">
+                            <i class="ion-ios-checkmark success-icon"></i>
+                            <i class="ion-ios-close error-icon"></i>
+                            <small>Error message</small>
+                        </label>
+                    </div>
+                    <div class="form-control">
+                        <label for="email"><p>Email</p>
+                            <input type="email" name="email" id="email" placeholder="example@email.com">
+                            <i class="ion-ios-checkmark success-icon"></i>
+                            <i class="ion-ios-close error-icon"></i>
+                            <small>Error message</small>
+                        </label>
+                    </div>
+                    <div class="form-control">
+                        <label for="password"><p>Password</p>
+                            <input type="password" name="password" id="password">
+                            <i class="ion-ios-checkmark success-icon right"></i>
+                            <i class="ion-ios-close error-icon"></i>
+                            <small>Error message</small>
+                        </label>
+                    </div>
+                    
+                    <input type="checkbox" id="agree"><span>I have read and agree to the <a href="#">Terms and Conditions</a></span>
+                    <button class="btn">Join discussion</button>
+                    <!-- <a class="underline">I'm already in!</a> -->
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
