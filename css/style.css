@@ -42,7 +42,7 @@ a {
 .logo {
     font-size: 120%;
     color:  #112d60;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 li .active {
@@ -165,16 +165,15 @@ input[type=checkbox] {
 .form-control i {
     visibility: hidden;
     position: absolute;
-    top: 35px;
-    right: -15.4rem;
+    top: 38px;
+    right: -17rem;
     font-size: 120%;
 }
 
-.form-control i .right {
+.form-control .right {
     visibility: hidden;
     position: absolute;
     top: 35px;
-    right: 5rem;
     font-size: 120%;
 }
 
