@@ -285,7 +285,7 @@ input {
 
     .btn:active,
     .btn:hover {
-        width: unset;
+        width: 0;
         padding: 13px;
     }
 
@@ -296,7 +296,7 @@ input {
 
     .container {
         margin: 1.2em 1.5em;
-        height: 93vh;
+        min-height: 93vh;
     }
 
     .form-container {
