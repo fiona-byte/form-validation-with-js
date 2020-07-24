@@ -214,7 +214,7 @@ input {
 .btn:hover,
 .btn:active {
     padding: 13px;
-    width: 46%;
+    width: 51%;
 }
 
 /*             Media Queries              */
@@ -283,6 +283,12 @@ input {
         display: none;
     }
 
+    .btn:active,
+    .btn:hover {
+        width: unset;
+        padding: 13px;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -316,11 +322,12 @@ input {
 @media only screen and (max-width: 375px) {
 
     .container {
-        margin: 1em 1.2em;
+        margin: 1.7em 2em;
         height: 94vh;
     }
 
     .form-container {
+        margin-top: 7%;
         width: 100%;
     }
 
@@ -330,6 +337,11 @@ input {
     .btn {
         margin-left: 15%;
         width: 70%;
+    }
+
+    .btn:hover,
+    .btn:active {
+        width: 71%;
     }
 
     span {
