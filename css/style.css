@@ -145,21 +145,21 @@ input {
     margin: 5px 0 0;
 }
 
-.form-control {
+.form-group {
     position: relative; 
 }
 
-.form-control.success input {
+.form-group.success input {
     border: 2px solid #2ecc71;
     box-shadow: none;
 }
 
-.form-control.error input {
+.form-group.error input {
     border: 2px solid #e74c3c;
     box-shadow: none;
 }
 
-.form-control i {
+.form-group i {
     visibility: hidden;
     position: absolute;
     top: 38px;
@@ -167,30 +167,24 @@ input {
     font-size: 120%;
 }
 
-/* .form-control .right {
-    visibility: hidden;
-    position: absolute;
-    top: 35px;
-    font-size: 120%;
-} */
 
-.form-control.success .success-icon {
+.form-group.success .success-icon {
     visibility: visible;
     color: #2ecc71
 }
 
-.form-control.error .error-icon {
+.form-group.error .error-icon {
     visibility: visible;
     color: #e74c3c;
 }
 
-.form-control small {
+.form-group small {
     text-transform: none;
     visibility: hidden;
     margin-top: -20px;
 }
 
-.form-control.error small {
+.form-group.error small {
     visibility: visible;
     color: #e74c3c;
     width: 100%;
